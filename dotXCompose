@@ -295,8 +295,10 @@ include "%L"
 <Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
 # Keystrokes for these?  And are the Mathematical versions ⟨⟩ preferable?
 # Geez, and there are more at 3008 and 3009
-<Multi_key> <less> <parenleft>	: "〈" U2329	# LEFT-POINTING ANGLE BRACKET
-<Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
+<Multi_key> <less> <parenleft>	: "⟨" U27E8	# MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <less> <bracketleft> : "〈" U2329    # LEFT-POINTING ANGLE BRACKET
+<Multi_key> <greater> <bracketright>: "〉" U232A # RIGHT-POINTING ANGLE BRACKET
 <Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
 <Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
 <Multi_key> <Z> <parenleft>	    : "༼"     U0F3C   # TIBETAN MARK ANG KHANG GYON
